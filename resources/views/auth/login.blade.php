@@ -1,9 +1,8 @@
 <x-guest-layout>
     <x-auth-card>
         <x-slot name="logo">
-            <a href="/">
-                <x-application-logo class="w-20 h-20 fill-current text-gray-500" />
-            </a>
+            <h2 class="font-semibold text-gray-800 leading-tight text-center text-3xl"> {{__('Familia')}}</h2>
+            <i class="fa-solid fa-people-line fa-7x"></i>
         </x-slot>
 
         <!-- Session Status -->
